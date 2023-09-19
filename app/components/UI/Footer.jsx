@@ -14,13 +14,13 @@ import Styles from "./footer.module.css";
 import React from "react";
 import IconButton from "@mui/material/IconButton";
 import EastRoundedIcon from "@mui/icons-material/EastRounded";
-import {
-  Fb_icon,
-  Insta_icon,
-  Tiktok_icon,
-  Twitter_icon,
-  Youtube_icon,
-} from "./icon";
+// import {
+//   Fb_icon,
+//   Insta_icon,
+//   Tiktok_icon,
+//   Twitter_icon,
+//   Youtube_icon,
+// } from "./icon";
 
 const Footer = () => {
   return (
@@ -114,7 +114,7 @@ const Footer = () => {
               >
                 Social media
               </Typography>
-              <div className={Styles.socialicon}>
+              {/* <div className={Styles.socialicon}>
                 <a
                   className={Styles.social}
                   href="https://www.instagram.com/berlintires/"
@@ -155,7 +155,7 @@ const Footer = () => {
                 >
                   <Twitter_icon />
                 </a>
-              </div>
+              </div> */}
               <Typography
                 className={Styles.footerheading}
                 sx={{ marginTop: "20px" }}

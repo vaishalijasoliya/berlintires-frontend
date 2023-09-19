@@ -24,7 +24,7 @@ async function getNavLinks() {
 }
 
 const Header = async () => {
-  var links = await getNavLinks();
+  // var links = await getNavLinks();
   if(!!links){
       var links = [];
   }

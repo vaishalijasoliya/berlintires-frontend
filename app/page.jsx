@@ -1,6 +1,6 @@
 import HeroBanner from "./components/Home/HeroBanner";
 import Breadcrumb from "./components/Blog/Breadcrumb";
-import {fetchData} from "@/app/libs/fetchData";
+// import {fetchData} from "@/app/libs/fetchData";
 
 export default function Home (){
 
