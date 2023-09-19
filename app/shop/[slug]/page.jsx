@@ -18,13 +18,13 @@ export default function ShopDetails(response) {
 }
 export async function getServerSideProps(context) {
     // You can fetch data here using fetchData or any other method
-    const homePage = await fetchData(`/api/homepage/?populate=*`);
+    // const homePage = await fetchData(`/api/homepage/?populate=*`);
 
 
-    // Pass the fetched data as props to your component
-    return {
-        props: {
-            homePage,
-        },
-    };
+    // // Pass the fetched data as props to your component
+    // return {
+    //     props: {
+    //         homePage,
+    //     },
+    // };
 }
