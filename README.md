@@ -1,1 +1,1 @@
-# berlintires-frontend
+# strapi

@@ -1,0 +1,137 @@
+.background{
+    background-color: #1a1a1a;
+}
+
+.container{
+    padding: 30px 40px 0px 40px;
+   
+    max-width: 1140px;
+   
+}
+.footerheading{
+    font-family: "Mulish",sans-serif;
+   color: white;
+   font-size: 20.8px;
+   font-weight: 500;
+   text-align: start;
+   line-height: 24px;
+}
+.footersubheading{
+    font-family: "Mulish",sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 10px;
+
+}
+.footersubheading1{
+    font-family: "Mulish",sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 20px;
+
+}
+.fottermenu li{
+    font-family: "Mulish",sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: start;
+    line-height: 24px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.fottermenu1 li{
+    font-family: "Mulish",sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 24px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.pdf{
+    font-family: "Mulish",sans-serif;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 24px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.mail{
+    font-family: "Mulish",sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 24px;
+   
+
+}
+.emailinput{
+    border: 1px solid white !important;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 10px;
+   
+    max-width: 100%;
+    vertical-align: middle;
+    min-height: 50px;
+    border-bottom: 0px;
+    font-family: "Mulish",sans-serif;
+}
+.socialicon{
+   
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.social{
+    margin-right: 8px;
+
+}
+.social :hover{
+    stroke: red;
+    fill: none;
+}
+.footerclogo{
+    height: 10% !important;
+    width: 100%;
+    margin-right: 0px;
+    max-width: 85px;
+}
+.footerlogomargin{
+    margin-right: 0px !important;
+   
+}
+.footerclogoflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.copyright{
+   
+    color: #fff;
+    margin-top: 20px;
+   
+
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: end;
+}
+
+

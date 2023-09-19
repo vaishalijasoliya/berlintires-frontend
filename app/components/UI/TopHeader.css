@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Mulish-200;
+    src: url("../../../public/Mulish/static/Mulish-ExtraLight.ttf");
+    
+  }
+
+.Grid_container {
+    height: 48px;
+
+    max-width: 1140px;
+    margin: auto;
+}
+.topheader_main_dev{
+    background-color: #111;
+}
+.li_tage_header{
+    font-family: Mulish-200;
+    color:#000;
+    line-height: 40px;
+}
+.li_tage{
+    font-family: Mulish-200;
+    color: white;
+    line-height: 40px;
+
+}
+.Badge_classname span{
+    background:#DC3542
+}
+.icon_button_class_name{
+    display: flex;
+    align-items: center;
+    /* width: 51%; */
+    /* justify-content: space-between; */
+}
+.a_tage_img_typoo{
+    display: flex;
+    align-items: center;
+}
+.a_tage_img_typoo svg{
+color: #fff;
+}
+.img_centry{
+    border-radius: 50%;
+}
+.typo_centry_name{
+    font-size: 16px;
+    font-family: Mulish-200;
+    color: #fff;
+    padding-left: 7px;
+}
+.topheader_main_dev_header{
+    background-color: #fff;
+    padding: 1rem 0;
+}
+.Grid_container_header{
+    height: 96px;
+   
+padding: 8px 0px;
+    max-width: 1140px;
+    margin: auto;
+}
+.link_tage{
+    display: flex;
+    align-items: center;
+}
