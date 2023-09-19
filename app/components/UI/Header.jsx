@@ -24,8 +24,10 @@ async function getNavLinks() {
 }
 
 const Header = async () => {
-  const links = await getNavLinks();
-
+  var links = await getNavLinks();
+  if(!!links){
+      var links = [];
+  }
   return (
     <>
       <TopHeader />
@@ -110,7 +112,7 @@ const Header = async () => {
 
       {/* </div> */}
       {/* </header> */}
-      <Navbar links={links} isMobile />
+      {/* <Navbar links={links} isMobile /> */}
     </>
   );
 };
